@@ -36,7 +36,7 @@ export default function Home() {
           </h1>
 
           <p className="">
-          I’m a passionate full-stack developer with hands-on experience in building scalable web applications using the MERN stack.{" "}
+          I’m a passionate frontend developer with hands-on experience in building responsive and user-friendly web applications using modern web technologies.{" "}
           </p>
           {/* <p className="">
             I am very active on{" "}

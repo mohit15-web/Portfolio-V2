@@ -15,7 +15,7 @@ export const projects: Project[] = [
         imgPath: "/project-images/food.png",
         techs: ["ReactJS", "Firebase","Acertinity Ui", "Redux" , "TailwindCSS", "Razorpay"],
         githubLink: "https://github.com/mohit15-web/Food-Delivery-Website",
-        liveLink: "https://github.com/mohit15-web/Food-Delivery-Website",
+        liveLink: "https://food-delivery-website-sigma-ochre.vercel.app/",
         status: 'online'
     },
     {
