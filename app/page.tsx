@@ -98,7 +98,7 @@ export default function Home() {
       <div>
         {/* Experience section */}
         {experience.map((exp: Experience) => (
-          <Link href={exp.link} legacyBehavior>
+          <Link href={exp.link} legacyBehavior key={exp.company}>
           <a
             target="_blank"
             rel="noopener noreferrer"

@@ -32,6 +32,7 @@ export const projects: Project[] = [
         description: "My Personal Portfolio Website",
         imgPath: "/project-images/portfolioV1.png",
         techs: ["ReactJS","TailwindCSS","Gsap", "Acertinity Ui"],
+        githubLink: "#",
         liveLink: "https://portfolio-react-seven-ochre.vercel.app/",
         status: 'online'
     },

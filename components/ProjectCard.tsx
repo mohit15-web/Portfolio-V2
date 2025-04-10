@@ -26,13 +26,13 @@ export default function ProjectCard({ project, className = "" }:  ProjectCardPro
           {project.status === "online" && (
             <p className="bg-green-200 text-green-800 text-xs px-1 rounded-sm flex items-center gap-1 font-bold border border-green-800">
               online{" "}
-              <div className="w-2 h-2 rounded-full bg-green-600 animate-pulse" />
+              <span className="w-2 h-2 rounded-full bg-green-600 animate-pulse" />
             </p>
           )}
           {project.status === "building" && (
             <p className="bg-yellow-200 text-yellow-800 text-xs px-1 rounded-sm flex items-center gap-1 font-bold border border-yellow-800">
               building{" "}
-              <div className="w-2 h-2 rounded-full bg-yellow-600 animate-pulse" />
+              <span className="w-2 h-2 rounded-full bg-yellow-600 animate-pulse" />
             </p>
           )}
         </div>
