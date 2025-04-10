@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { CiMail } from "react-icons/ci";
-import { FaGithub, FaInstagram, FaLinkedin, FaDiscord } from "react-icons/fa";
+import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { SocialLinks } from "@/lib/constants";
 
@@ -53,13 +53,6 @@ export default function Contact() {
             className="flex items-center"
           >
             <FaXTwitter size={27} className="hover:scale-125 transition-all" />
-          </Link>
-          <Link
-            href={SocialLinks.discord}
-            target="_blank"
-            className="flex items-center"
-          >
-            <FaDiscord size={27} className="hover:scale-125 transition-all" />
           </Link>
         </div>
       </div>
