@@ -1,7 +1,6 @@
 'use client';
-import { useState } from 'react';
+import { useState, ReactElement} from 'react';
 import { Code, Palette, Globe, ChevronRight, Database, Server } from 'lucide-react';
-
 type SkillType = {
   name: string;
   level: number;
@@ -9,7 +8,7 @@ type SkillType = {
 
 type CategoryType = {
   title: string;
-  icon: JSX.Element;
+  icon: ReactElement;
   skills: SkillType[];
 };
 
