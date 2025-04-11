@@ -86,7 +86,7 @@ export default function Skills() {
           <h2 className="text-4xl font-bold mb-4 text-white">My Skills</h2>
           <div className="w-20 h-1 bg-emerald-500 mx-auto mb-6 rounded-full"></div>
           <p className="text-lg text-gray-300 max-w-2xl mx-auto">
-            Here's a comprehensive overview of my technical expertise and professional capabilities.
+            Here&apos;s a comprehensive overview of my technical expertise and professional capabilities.
           </p>
         </div>
 
@@ -152,7 +152,7 @@ export default function Skills() {
             <div className="mt-8 p-6 bg-zinc-900 border border-zinc-800 rounded-xl">
               <h4 className="font-semibold text-gray-200 mb-3">Always Learning</h4>
               <p className="text-gray-400">
-                Technology evolves rapidly, and I'm committed to continuous learning and growth.
+                Technology evolves rapidly, and I&apos;m committed to continuous learning and growth.
                 Currently exploring: Web3, Machine Learning, and Advanced Animation Techniques.
               </p>
             </div>
