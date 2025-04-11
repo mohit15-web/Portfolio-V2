@@ -10,6 +10,7 @@ import { FaXTwitter } from "react-icons/fa6";
 import { SocialLinks } from "@/lib/constants";
 import { Experience, experience } from "@/data/experience";
 import * as motion from "motion/react-client"
+import Skills from "./skills/page";
 
 export default function Home() {
   const transition = {
@@ -120,6 +121,11 @@ export default function Home() {
           </a>
         </Link>        
         ))}
+      </div>
+      <h1 className="text-3xl font-bold pt-10 ">Skills</h1>
+      {/* Skills section */}
+      <div className="flex flex-wrap mt-6 flex-col items-center justify-center">
+        <Skills/>
       </div>
       <h1 className="text-3xl font-bold pt-10 ">Projects</h1>
       {/* Projects section */}
