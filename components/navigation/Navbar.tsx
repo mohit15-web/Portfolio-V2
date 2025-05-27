@@ -27,12 +27,12 @@ export default function Navbar() {
         >
           Skills
         </Link>
-        {/* <Link
-          href={"/blogs"}
+        <Link
+          href={"/openSource"}
           className={pathname === "/blogs" ? "font-bold underline" : ""}
         >
-          Blogs
-        </Link> */}
+          OpenSource
+        </Link>
         <Link
           href={"/contact"}
           className={pathname === "/contact" ? "font-bold underline" : ""}
