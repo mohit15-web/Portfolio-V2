@@ -13,7 +13,7 @@ export const projects: Project[] = [
         title: "EatsExpress",
         description: "Food Delivery Website",
         imgPath: "/project-images/food.png",
-        techs: ["ReactJS", "Firebase","Acertinity Ui", "Redux" , "TailwindCSS", "Razorpay"],
+        techs: ["ReactJS","AI", "Firebase","Acertinity Ui", "Redux" , "TailwindCSS", "Razorpay"],
         githubLink: "https://github.com/mohit15-web/Food-Delivery-Website",
         liveLink: "https://food-delivery-website-sigma-ochre.vercel.app/",
         status: 'online'
@@ -22,9 +22,36 @@ export const projects: Project[] = [
         title: "Gemini Clone",
         description: "A clone of Gemini App",
         imgPath: "/project-images/gemini.png",
-        techs: ["NextJS", "ReactJS", "TailwindCSS","Shadcn UI", "Framer Motion",'Acertinity Ui'],
+        techs: ["NextJS", "ReactJS","AI", "TailwindCSS","Shadcn UI", "Framer Motion",'Acertinity Ui'],
         githubLink: "https://github.com/mohit15-web/Gemini-clone",
         liveLink: "https://gemini-clone-pearl-two.vercel.app/",
+        status: 'online'
+    },
+    {
+        title: "CodeSync",
+        description: "App for Code Sharing in realtime",
+        imgPath: "/project-images/codeSync.png",
+        techs: ["ReactJS", "TailwindCSS", "Socket.io", "NodeJS"],
+        githubLink: "https://github.com/mohit15-web/codeSync",
+        liveLink: "https://code-sync-hu8s.vercel.app/",
+        status: 'building'
+    },
+    {
+        title: "Iconify",
+        description: "App to generate icons using AI",
+        imgPath: "/project-images/Iconify.png",
+        techs: ["ReactJS", "TailwindCSS", "NodeJS", "AI"],
+        githubLink: "https://github.com/mohit15-web/Iconify",
+        liveLink: "https://iconify.vercel.app/",
+        status: 'building'
+    },
+    {
+        title: "AcmeHealth",
+        description: "Weight Progress Tracker",
+        imgPath: "/project-images/AcmeHealth.png",
+        techs: ["ReactJS", "TailwindCSS", "NodeJS", "Express.js", "MongoDB"],
+        githubLink: "https://github.com/mohit15-web/AcmeHealth",
+        liveLink: "https://acme-health.vercel.app/",
         status: 'online'
     },
     {

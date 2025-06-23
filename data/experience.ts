@@ -7,8 +7,14 @@ export type Experience = {
 
 export const experience: Experience[] = [
     {
+        company: "Acciojob",
+        info: "Instructor & Mentor | May 2025 - Present | Remote | Freelance",
+        link: "https://www.kommunicate.io/",
+        logo: "/company-logos/acciojob_logo.jpeg"
+    },
+    {
         company: "Kommunicate",
-        info: "SDE-I | Sep 2023 - Present | Hybrid | Full Time",
+        info: "SDE-I | Sep 2024 - May 2025 | Hybrid | Full Time",
         link: "https://www.kommunicate.io/",
         logo: "/company-logos/kommunicate_logo.jpeg"
     },
