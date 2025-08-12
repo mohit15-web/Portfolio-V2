@@ -9,7 +9,7 @@ export const experience: Experience[] = [
     {
         company: "Insureka",
         info: "SDE-I | Aug 2025 - Present | Onsite | Full Time",
-        link: "https://www.kommunicate.io/",
+        link: "https://insureka.co.id/en/",
         logo: "/company-logos/insureka.jpg"
     },
     {
